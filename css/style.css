@@ -1,0 +1,205 @@
+body {
+    background-color: #f9f9f9;
+    font-family: 'PT Sans', Arial, sans-serif;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+
+.carousel-indicators li {
+    border: none;
+    border-radius: 1px;
+    background-color: black;
+    opacity: .87;
+}
+
+.carousel-indicators .active {
+    background-color: #32cd74;
+}
+
+.carousel-indicators li:nth-child(2) {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.caption {
+    display: inline-block;
+    background-color: white;
+    text-align: left;
+    width: 26vw;
+    padding: 4vw 3vw 4vw;
+    font-size: 2vw;
+    font-family: 'PT Sans', Arial, sans-serif;
+    position: absolute;
+    top: 12vw;
+    right: 12vw;
+    -webkit-transition: .25s ease;
+    -o-transition: .25s ease;
+    transition: .25s ease;
+}
+
+.item a {
+    color: black;
+    -webkit-transition: .25s ease;
+    -o-transition: .25s ease;
+    transition: .25s ease;
+}
+
+.caption:hover {
+    background-color: #32cd74;
+    color: white;
+}
+
+.apple {
+    background-color: white;
+    padding: 6vw;
+    padding-left: 12.5vw;
+    opacity: .87;
+    -webkit-transition: .25s ease;
+    -o-transition: .25s ease;
+    transition: .25s ease;
+}
+
+.apple img {
+    width: 4.5vw;
+}
+
+.apple:hover {
+    opacity: 1;
+}
+
+main .row:nth-child(2) {
+    margin-top: 30px;
+}
+
+.music {
+    background-image: url(../img/home/item1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 12vw;
+    padding-bottom: 1vw;
+    padding-left: 0vw;
+    opacity: .87;
+    -webkit-transition: .25s ease;
+    -o-transition: .25s ease;
+    transition: .25s ease;
+}
+
+.music p {
+    font-size: 1.8vw;
+    font-family: 'PT Sans', Arial, sans-serif;
+    text-align: center;
+    width: 30.5vw;
+    opacity: .87;
+    letter-spacing: .03vw;
+    -webkit-transition: .25s ease;
+    -o-transition: .25s ease;
+    transition: .25s ease;
+}
+
+.music p:hover {
+    opacity: 1;
+}
+
+.app {
+    background-image: url(../img/home/apps.png);
+}
+
+.items {
+    height: 16vw;
+    margin-top: 30px;
+    opacity: 0.87;
+    text-align: center;
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-size: 2vw;
+    padding-top: 11vw;
+    color: black;
+    -webkit-transition: .25s ease;
+    -o-transition: .25s ease;
+    transition: .25s ease;
+}
+
+.cases {
+    background-image: url(../img/home/accessories.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.cases:hover {
+    opacity: 1;
+}
+
+.shop {
+    background-image: url(../img/home/shops.jpeg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+    
+.shop:hover {
+    opacity: 1;
+}
+
+.comment {
+    margin-top: 30px;
+    height: 20vw;
+    background-color: #fff;
+    padding-top: 2vw;
+}
+
+.ava {
+    width: 6vw;
+    height: 6vw;
+    margin-left: 12.25vw;
+}
+
+.me {
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url(../img/home/people.jpg);
+}
+
+.nick {
+    background-image: url(../img/home/nick.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: right;
+}
+
+.dmitry {
+    background-repeat: no-repeat;
+    -webkit-background-size: 200px;
+    background-size: 200px;
+    background-position: -30px center;
+    background-image: url(../img/home/IMG_0282.JPG);
+    transform: rotate(90deg);
+}
+
+.comment p {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin-top: 3vw;
+    font-size: 1.15vw;
+}
+
+.more {
+    margin-top: 10px;
+}
+
+.more p {
+    width: 12vw;
+    background-color: #32cd74;
+    opacity: .87;
+    color: white;
+    text-align: center;
+    padding: 1vw;
+    font-size: 1vw;
+}

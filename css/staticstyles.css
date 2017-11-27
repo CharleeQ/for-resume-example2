@@ -1,0 +1,148 @@
+header {
+    padding-top: 1.5vw;
+}
+
+.logo p {
+    display: inline-block;
+    height: 6.6vw;
+    font-size: 2vw;
+    padding-top: 1.8vw;
+    width: 14vw;
+    text-align: center;
+    background-color: black;
+    opacity: .87;
+    font-family: 'Montserrat', Arial, sans-serif;
+    -webkit-transition: .25s ease;
+    -o-transition: .25s ease;
+    transition: .25s ease;
+}
+
+.logo p:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.nav {
+    display: inline-block;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    opacity: .87;
+    letter-spacing: 1px;
+    margin-left: -4px;
+    -webkit-transition: .25s ease;
+    -o-transition: .25s ease;
+    transition: .25s ease;
+}
+
+
+.nav ul li p {
+    height: 6.6vw;
+    padding: 2.5vw 2vw;
+    background-color: #32cd74;
+    font-size: 1vw;
+}
+
+ul li:first-child {
+    margin-left: -15px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li:hover {
+    opacity: 1;
+}
+
+.phone {
+    opacity: .87;
+    -webkit-transition: .25s ease;
+    -o-transition: .25s ease;
+    transition: .25s ease;
+}
+
+.phone:hover {
+    opacity: 1;
+}
+
+.phone img {
+    display: inline-block;
+    position: absolute;
+    width: 6.6vw;
+    background-color: #000;
+    border:  10px solid #000;
+    vertical-align: middle;
+    right: 1vw;
+    margin-right: auto;
+}
+
+.subscribe p {
+    background-color: #32cd74;
+    text-align: center;
+    display: inline-block;
+    height: 6.6vw;
+    font-size: 2vw;
+    padding-top: 1.8vw;
+    width: 22.3vw;
+    opacity: .87;
+}
+
+.subscribe p:hover {
+    opacity: 1;
+}
+
+.social p {
+    background-color: #32cd74;
+    display: inline-block;
+    text-align: center;
+    height: 6.6vw;
+    width: 6.6vw;
+    font-size: 2vw;
+    opacity: .87;
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-weight: bold;
+    padding: 2vw;
+}
+
+.info p {
+    display: inline-block;
+    font-size: 1vw;
+}
+
+.info p:first-child {
+    margin-left: 0;
+}
+
+.info span {
+    font-size: 1.1vw;
+    color: cornflowerblue;
+}
+
+.text {
+    margin-left: -1.2vw;
+}
+
+.info li {
+    margin-left: 1vw;
+    letter-spacing: 0;
+}
+
+.links {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: .7vw;
+    text-align: right;
+    margin-top: 4.8vw;
+}
+
+footer {
+    margin-top: 2vw;
+}
